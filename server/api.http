@@ -1,4 +1,0 @@
-POST http://localhost:3333/subscriptions
-Content-Type: application/json
-
-{ "name": "Sophia", "email": "exemplo@email.com" }
