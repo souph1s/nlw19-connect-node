@@ -2,14 +2,24 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Sophia Muraro",
-  "email": "sophia@rocketseat.com.br"
+  "name": "Usuário Indicado 3",
+  "email": "userindicado3@indicacao.com.br",
+  "referrer": "26cff6ae-0029-4c48-adae-047acdee1d6d"
 }
 
 ####
 
-GET http://localhost:3333/invites/sophia123
+GET http://localhost:3333/invites/bb5a8ab8-74a8-4638-8028-1cfa62d2751c
 
 ###
 
-GET http://localhost:3333/subscribers/sophia123/ranking/clicks
+GET http://localhost:3333/subscribers/bb5a8ab8-74a8-4638-8028-1cfa62d2751c/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/bb5a8ab8-74a8-4638-8028-1cfa62d2751c/ranking/count
+
+###
+GET http://localhost:3333/subscribers/bb5a8ab8-74a8-4638-8028-1cfa62d2751c/ranking/position
+
+### 
+GET http://localhost:3333/ranking
